@@ -164,6 +164,7 @@ partial class MainForm
         Margin = new Padding(4);
         Name = "MainForm";
         Text = "DateTimeChecker";
+        FormClosing += MainForm_FormClosing;
         ((System.ComponentModel.ISupportInitialize)logo).EndInit();
         ResumeLayout(false);
         PerformLayout();

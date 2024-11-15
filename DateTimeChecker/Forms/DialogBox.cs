@@ -15,4 +15,10 @@ public static class DialogBox
         return MessageBox.Show(owner, message, Resources.MessageTitle, MessageBoxButtons.OK,
             MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
     }
+
+    public static DialogResult ShowConfirmMessage(IWin32Window? owner, string message)
+    {
+        return MessageBox.Show(owner, message, Resources.ConfirmTitle, MessageBoxButtons.YesNo,
+            MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+    }
 }

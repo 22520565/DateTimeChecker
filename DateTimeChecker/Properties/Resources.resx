@@ -151,4 +151,10 @@
   <data name="IncorrectDateTimeFormatInfoFormatString" xml:space="preserve">
     <value>{0:00}/{1:00}/{2:00} is NOT correct date time!</value>
   </data>
+  <data name="ConfirmTitle" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ExitConfirmationString" xml:space="preserve">
+    <value>Are you sure to exit?</value>
+  </data>
 </root>

@@ -61,6 +61,15 @@ namespace DateTimeChecker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        internal static string ConfirmTitle {
+            get {
+                return ResourceManager.GetString("ConfirmTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0:00}/{1:00}/{2:00} is correct date time!.
         /// </summary>
         internal static string CorrectDateTimeFormatInfoFormatString {
@@ -93,6 +102,15 @@ namespace DateTimeChecker.Properties {
         internal static string ErrorTitle {
             get {
                 return ResourceManager.GetString("ErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure to exit?.
+        /// </summary>
+        internal static string ExitConfirmationString {
+            get {
+                return ResourceManager.GetString("ExitConfirmationString", resourceCulture);
             }
         }
         

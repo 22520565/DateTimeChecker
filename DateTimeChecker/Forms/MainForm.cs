@@ -66,4 +66,13 @@ public partial class MainForm : Form
                 day, month, year));
         }
     }
+
+    private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+    {
+        if (DialogResult.Yes !=
+            DialogBox.ShowConfirmMessage(this, Resources.ExitConfirmationString))
+        {
+            e.Cancel = true;
+        }
+    }
 }
